@@ -1,0 +1,30 @@
+.info-box {
+    width: 97%;
+    height: 34px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    padding: 8px 0 0 24px;
+    margin: 0 4px 4px 4px;
+}
+
+.info-round {
+    width: 20px;
+    height: 20px;
+    margin-right: 36px;
+}
+
+.info-trial {
+    margin-right: 24px;
+}
+
+.info-score-name {
+    display: flex;
+    flex-direction: row;
+}
+
+.info-score-name div {
+    margin-right: 6px;
+    margin-left: 4px;
+}

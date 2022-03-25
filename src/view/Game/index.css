@@ -1,0 +1,316 @@
+.game-section {
+    width: 412px;
+    height: 500px;
+    border: black 2px solid;
+    border-radius: 10px;
+}
+
+.info-list {
+    width: 260px;
+    height: 500px;
+    border: black 2px solid;
+    border-radius: 10px;
+    margin-left: 20px;
+    overflow-y: auto;
+}
+
+.info-list .info-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-bottom: 2px solid black;
+    margin: 4px 12px 4px 12px;
+    padding: 4px;
+}
+
+.info-header .hed-round {
+    margin-left: 8px;
+    margin-right: 24px;
+}
+
+.info-header .hed-trial {
+    margin-right: 48px;
+}
+
+.info-list::-webkit-scrollbar {
+    width: 10px;
+}
+.info-list::-webkit-scrollbar-thumb {
+    background-color: #292929;
+    border-radius: 5px;
+}
+
+.info-list::-webkit-scrollbar-track {
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 5px white;
+}
+
+
+@media screen and (max-width: 620px) {
+    .flex-row {
+        flex-direction: column;
+    }
+    .game-section {
+        width: 320px;
+        height: 400px;
+    }
+    
+    .info-list {
+        width: 320px;
+        height: 150px;
+        margin: 20px 0 0 0;
+    }
+
+    .dashboard-container {
+        width: 90%;
+        margin-top: 52px;
+    }
+    
+    .timer-Image {
+        width: 44px;
+        height: 44px;
+        margin-right: 8px;
+    }
+    
+    .heart-Image {
+        width: 48px;
+        height: 48px;
+    }
+    
+    .progress-bar {
+        width: 120px;
+        height: 12px;
+    }
+
+    .loading-bar {
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        height: 8px;
+        width: 0;
+    }
+
+    .userpanel-container {
+        width: 100%;
+        height: 80px;
+        margin-top: 28px;
+    }
+    
+    .user-input-box {
+        width: 180px;
+        height: 24px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .score-name {
+        font-size: 16px;
+        height: 95%;
+    }
+    
+    .StrikeCircularLine {
+        width: 28px;
+        height: 28px;
+        margin: 14px;
+    }
+    
+    .StrikeCircularBackground {
+        width: 28px;
+        height: 28px;
+        margin: 14px;
+    }
+    
+    .BallCircularLine {
+        width: 28px;
+        height: 28px;
+        margin: 14px;   
+    }
+    
+    .BallCircularBackground {
+        width: 28px;
+        height: 28px;
+        margin: 14px;   
+    }
+    
+    .OutCircularLine {
+        width: 28px;
+        height: 28px;
+        margin: 14px;   
+    }
+    
+    .OutCircularBackground {
+        width: 28px;
+        height: 28px;
+        margin: 14px;   
+    }
+    
+    .info-header .hed-round {
+        margin-left: 8px;
+        margin-right: 44px;
+    }
+
+    .info-header .hed-trial {
+        margin-right: 76px;
+    }
+
+    .info-box {
+        width: 97%;
+        height: 34px;
+        border-radius: 5px;
+        font-size: 14px;
+        display: flex;
+        flex-direction: row;
+        padding: 8px 0 0 24px;
+        margin: 0 4px 4px 4px;
+    }
+    
+    .info-round {
+        margin-right: 56px;
+    }
+    
+    .info-trial {
+        margin-right: 48px;
+    }
+    
+    .info-score-name {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .info-score-name div {
+        margin-right: 6px;
+        margin-left: 4px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .game-section {
+        width: 320px;
+        height: 400px;
+    }
+    
+    .info-list {
+        width: 320px;
+        height: 400px;
+    }
+
+    .dashboard-container {
+        width: 90%;
+        margin-top: 44px;
+    }
+    
+    .timer-Image {
+        width: 48px;
+        height: 48px;
+        margin-right: 8px;
+    }
+    
+    .heart-Image {
+        width: 52px;
+        height: 52px;
+    }
+
+    .progress-bar {
+        width: 140px;
+        height: 14px;
+    }
+
+    .loading-bar {
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        height: 10px;
+        width: 0;
+    }
+
+    .userpanel-container {
+        width: 100%;
+        height: 80px;
+        margin-top: 32px;
+    }
+    
+    .user-input-box {
+        width: 180px;
+        height: 24px;
+        font-size: 16px;
+    }
+
+    .score-name {
+        font-size: 20px;
+        height: 98%;
+    }
+    
+    .StrikeCircularLine {
+        width: 28px;
+        height: 28px;
+        margin: 14px;
+    }
+    
+    .StrikeCircularBackground {
+        width: 28px;
+        height: 28px;
+        margin: 14px;
+    }
+    
+    .BallCircularLine {
+        width: 28px;
+        height: 28px;
+        margin: 14px;   
+    }
+    
+    .BallCircularBackground {
+        width: 28px;
+        height: 28px;
+        margin: 14px;   
+    }
+    
+    .OutCircularLine {
+        width: 28px;
+        height: 28px;
+        margin: 14px;   
+    }
+    
+    .OutCircularBackground {
+        width: 28px;
+        height: 28px;
+        margin: 14px;   
+    }
+
+    .info-header .hed-round {
+        margin-left: 8px;
+        margin-right: 40px;
+    }
+
+    .info-header .hed-trial {
+        margin-right: 76px;
+    }
+
+    .info-box {
+        width: 97%;
+        height: 34px;
+        border-radius: 5px;
+        font-size: 14px;
+        display: flex;
+        flex-direction: row;
+        padding: 8px 0 0 24px;
+        margin: 0 4px 4px 4px;
+    }
+    
+    .info-round {
+        margin-right: 56px;
+    }
+    
+    .info-trial {
+        margin-right: 48px;
+    }
+    
+    .info-score-name {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .info-score-name div {
+        margin-right: 6px;
+        margin-left: 4px;
+    }
+}

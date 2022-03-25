@@ -1,0 +1,129 @@
+.join-membership-form {
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 32px 20px 32px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #292929;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.input-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 36px;
+}
+
+.input {
+    height: 44px;
+    padding-left: 8px;
+    font-family: 'GmarketSansMedium';
+}
+
+.id-form, .pw-form, .nn-form {
+    margin-bottom: 12px;
+    line-height: 24px;
+}
+    
+.button {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px 0 12px 0;
+    margin-top: 12px;
+    color: white;
+    background-color: #292929;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 900px){
+    .join-membership-form {
+        width: 580px;
+        height: 700px;
+        padding: 60px 32px 20px 32px;
+    }
+    
+    .header {
+        padding-bottom: 18px;
+        border-bottom: 2px solid #292929;
+        font-size: 24px;
+    }
+    
+    .input-form {
+        margin-top: 44px;
+    }
+
+    .join-membership-form label {
+        font-size: 14px;
+    }
+    
+    .input {
+        height: 44px;
+        font-size: 14px;
+    }
+    
+    .id-form, .pw-form, .nn-form {
+        margin-bottom: 20px;
+        line-height: 24px;
+    }
+    
+    .button {
+        font-size: 12px;
+        padding: 12px 0 12px 0;
+        margin-top: 12px;
+    }
+}
+
+@media screen and (max-width: 620px){
+    .join-membership-form {
+        width: 100%;
+        height: 660px;
+        padding: 50px 32px 20px 32px;
+    }
+    
+    .header {
+        padding-bottom: 18px;
+        border-bottom: 2px solid #292929;
+        font-size: 24px;
+    }
+    
+    .input-form {
+        margin-top: 44px;
+    }
+
+    .join-membership-form label {
+        font-size: 14px;
+    }
+    
+    .input {
+        height: 44px;
+        font-size: 14px;
+    }
+    
+    .id-form, .pw-form, .nn-form {
+        margin-bottom: 20px;
+        line-height: 24px;
+    }
+    
+    .button {
+        font-size: 12px;
+        padding: 12px 0 12px 0;
+        margin-top: 12px;
+    }
+}

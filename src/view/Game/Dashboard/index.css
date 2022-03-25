@@ -1,0 +1,28 @@
+.dashboard-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 52px;
+    font-weight: bold;
+}
+
+.dashboard-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.timer-Image {
+    width: 44px;
+    height: 44px;
+    margin-right: 8px;
+}
+
+.heart-Image {
+    width: 48px;
+    height: 48px;
+}
