@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/number-baseball/static/css/main.4efa24ac.css",
+    "main.js": "/number-baseball/static/js/main.902af7e5.js",
+    "static/js/787.9655fcd1.chunk.js": "/number-baseball/static/js/787.9655fcd1.chunk.js",
+    "static/media/GmarketSansMedium.otf": "/number-baseball/static/media/GmarketSansMedium.3b975ddd58dcbe363ee5.otf",
+    "static/media/red_heart.png": "/number-baseball/static/media/red_heart.7e45301471c392f85aeb.png",
+    "index.html": "/number-baseball/index.html",
+    "main.4efa24ac.css.map": "/number-baseball/static/css/main.4efa24ac.css.map",
+    "main.902af7e5.js.map": "/number-baseball/static/js/main.902af7e5.js.map",
+    "787.9655fcd1.chunk.js.map": "/number-baseball/static/js/787.9655fcd1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4efa24ac.css",
+    "static/js/main.902af7e5.js"
+  ]
+}
