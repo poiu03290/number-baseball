@@ -6,7 +6,7 @@ import Ranking from './Ranking'
 import RoundHistory from './RoundHistory'
 import './index.css'
 
-const End = () => {
+const End = (location) => {
     const history = useHistory()
     const [scoreArray, setScoreArray] = useState([])
     const [historyArray, setHistoryArray] = useState([])
@@ -20,19 +20,13 @@ const End = () => {
         .then((response) => {
             setScoreArray(response.data)
         })
-    }, [])
-
-    useEffect(() => {
-        axios.post('http://localhost:65100/gameHistory', {id: cookies.data.id})
-        .then((response) => {
-            setHistoryArray(response.data)
-        })
-    }, [])
-
-    useEffect(() => {
         axios.post('http://localhost:65100/playTime', {id: cookies.data.id})
         .then((response) => {
             setplayTime(response.data[0].RUN_TIME)
+        })
+        axios.post('http://localhost:65100/gameHistory', {id: cookies.data.id})
+        .then((response) => {
+            setHistoryArray(response.data)
         })
     }, [])
 

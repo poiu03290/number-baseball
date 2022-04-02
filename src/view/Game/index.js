@@ -57,6 +57,7 @@ const PlayGround = (location) => {
           },
           nickname: cookies.data?.nickname
         })
+        window.location.reload()
       }
     }
   }, [life])
@@ -77,6 +78,7 @@ const PlayGround = (location) => {
         },
         nickname: cookies.data?.nickname
       })
+      window.location.reload()
     }
   }, [life])
 
